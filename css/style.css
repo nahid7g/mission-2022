@@ -1,0 +1,130 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.half-width {
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 80%;
+}
+.section-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+.text-orange {
+  color: #ffad5a;
+}
+.left-border {
+  border-left: 4px solid tomato;
+  padding-left: 10px;
+}
+.link-btn {
+  text-decoration: none;
+  color: white;
+  background-color: tomato;
+  padding: 10px 40px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+/* My Missions */
+.missions {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.mission {
+  width: 25%;
+  margin-left: 2%;
+  padding-left: 2%;
+  border-radius: 10px;
+  min-height: 330px;
+}
+#mission1 {
+  background-color: #edf5f6;
+}
+#mission2 {
+  background-color: #ffeeee;
+}
+#mission3 {
+  background-color: #fff4d6;
+}
+.mission img {
+  width: 40%;
+}
+.mission-header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+/* Develop section */
+.develop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.half-content {
+  width: 40%;
+  margin-left: 2%;
+}
+.half-content img {
+  width: 80%;
+}
+/* Contact Us */
+.container {
+  width: 70%;
+  margin: 50px auto;
+  box-shadow: 10px 10px 40px grey;
+  text-align: center;
+  padding: 50px 0;
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  margin: 15px auto;
+  width: 50%;
+  text-align: left;
+}
+.form-box label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.form-box input,
+textarea {
+  padding: 12px 20px;
+  border: none;
+  background-color: #ecf0f1;
+  border-radius: 20px;
+}
+.form-submit input {
+  background-color: #16a085;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+/* Footer Section */
+footer {
+  text-align: center;
+  background-color: black;
+  padding: 30px 0;
+}
+footer h2 {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  color: white;
+}
+footer p {
+  color: gray;
+  font-size: 14px;
+}
